@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="633" xmlns="http://www.w3.org/2000/svg">
+<title>屋顶屋脊线俯视图</title>
+<desc>CGAL Straight Skeleton - 30度倾斜角屋顶</desc>
+
+<!-- 背景 -->
+<rect width="100%" height="100%" fill="#f8f8f8"/>
+
+<!-- 骨架分割的面 -->
+<g id="faces" opacity="0.8">
+  <polygon points="233.333,233 316.667,149.667 150,149.667 66.6667,233 " fill="#e3f2fd" stroke="none" />
+  <polygon points="233.333,566.333 483.333,316.333 316.667,149.667 233.333,233 " fill="#e3f2fd" stroke="none" />
+  <polygon points="733.333,566.333 483.333,316.333 233.333,566.333 " fill="#e3f2fd" stroke="none" />
+  <polygon points="733.333,66.3333 483.333,316.333 733.333,566.333 " fill="#e3f2fd" stroke="none" />
+  <polygon points="66.6667,66.3333 150,149.667 316.667,149.667 483.333,316.333 733.333,66.3333 " fill="#9e9e9e" stroke="none" />
+  <polygon points="66.6667,233 150,149.667 66.6667,66.3333 " fill="#e3f2fd" stroke="none" />
+</g>
+
+<!-- 屋顶外轮廓 -->
+<polygon points="233.333,233 233.333,566.333 733.333,566.333 733.333,66.3333 66.6667,66.3333 66.6667,233 " fill="none" stroke="#1976d2" stroke-width="2" />
+
+<!-- 屋脊线（内部骨架边）-->
+<g id="ridge-lines" stroke="#d32f2f" stroke-width="2.5" stroke-linecap="round">
+  <line x1="233.333" y1="233" x2="66.6667" y2="233" />
+  <line x1="233.333" y1="566.333" x2="233.333" y2="233" />
+  <line x1="733.333" y1="566.333" x2="233.333" y2="566.333" />
+  <line x1="733.333" y1="66.3333" x2="733.333" y2="566.333" />
+  <line x1="66.6667" y1="66.3333" x2="733.333" y2="66.3333" />
+  <line x1="66.6667" y1="233" x2="66.6667" y2="66.3333" />
+  <line x1="316.667" y1="149.667" x2="233.333" y2="233" />
+  <line x1="483.333" y1="316.333" x2="233.333" y2="566.333" />
+  <line x1="483.333" y1="316.333" x2="733.333" y2="566.333" />
+  <line x1="483.333" y1="316.333" x2="733.333" y2="66.3333" />
+  <line x1="150" y1="149.667" x2="66.6667" y2="66.3333" />
+  <line x1="150" y1="149.667" x2="66.6667" y2="233" />
+  <line x1="316.667" y1="149.667" x2="150" y2="149.667" />
+  <line x1="483.333" y1="316.333" x2="316.667" y2="149.667" />
+</g>
+
+<!-- 骨架顶点 -->
+<g id="vertices">
+  <circle cx="233.333" cy="233" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="233.333" cy="566.333" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="733.333" cy="566.333" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="733.333" cy="66.3333" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="66.6667" cy="66.3333" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="66.6667" cy="233" r="3" fill="#1976d2" stroke="white" stroke-width="1" />
+  <circle cx="150" cy="149.667" r="4" fill="#d32f2f" stroke="white" stroke-width="1" />
+  <circle cx="316.667" cy="149.667" r="4" fill="#d32f2f" stroke="white" stroke-width="1" />
+  <circle cx="483.333" cy="316.333" r="4" fill="#d32f2f" stroke="white" stroke-width="1" />
+</g>
+
+</svg>

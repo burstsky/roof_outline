@@ -1,0 +1,20 @@
+﻿  main.cpp
+D:\CyberAbandon\roof_outline\AlgCommLib\CGAL-6.0.1\auxiliary\gmp\include\gmp.h(1792,19): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“main.cpp”)
+  
+  geometry.cpp
+D:\CyberAbandon\roof_outline\AlgCommLib\CGAL-6.0.1\auxiliary\gmp\include\gmp.h(1792,19): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“geometry.cpp”)
+  
+  coordinate_transform.cpp
+  svg_renderer.cpp
+D:\CyberAbandon\roof_outline\AlgCommLib\CGAL-6.0.1\auxiliary\gmp\include\gmp.h(1792,19): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“svg_renderer.cpp”)
+  
+  roof_unfold.cpp
+D:\CyberAbandon\roof_outline\AlgCommLib\CGAL-6.0.1\auxiliary\gmp\include\gmp.h(1792,19): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+  (编译源文件“roof_unfold.cpp”)
+  
+  正在生成代码...
+  roof_outline.vcxproj -> D:\CyberAbandon\roof_outline\x64\Debug\roof_outline.exe
+  复制了 0 个文件
